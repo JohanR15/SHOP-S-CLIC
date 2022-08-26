@@ -423,6 +423,10 @@ html {
 .circle__back-2.paused {
   animation-play-state: paused;
 }
+
+ion-icon.fa.fa-sign-in::before{
+  color: var( --primary);
+}
 /*  FORM  */
 .form {
   grid-column: 1 / 4;
